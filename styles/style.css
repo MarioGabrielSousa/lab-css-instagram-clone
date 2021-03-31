@@ -8,3 +8,67 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-bg {
+  height: 20rem;
+  /*background-color: rgb(49, 108, 160);*/
+  background: linear-gradient(0deg, #0f4776 0%, #3d86c0 100%)
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49rem;
+}
+
+/* .phones-img {
+  height: 500px;
+} */
+
+.container {
+  width: 26rem;
+  padding: 6rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  padding: 5px;
+  color: white;
+  border: 1px solid #0d4c82;
+  background: linear-gradient(0deg, #196bad 0%, #3d86c0 100%);
+}
+
+.text {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.text h1 {
+  color: #06365f;
+  width: 21rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-blue {
+  color: #1c5380;
+}
+
+.footer-grey {
+  color: grey;
+}
